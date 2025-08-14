@@ -100,6 +100,11 @@ mvn spring-boot:run
 Projeyi çalıştırdıktan sonra Swagger UI’a buradan erişebilirsin:
 🔗 http://localhost:8080/swagger-ui/index.html
 
+## 📌 Swagger UI
+Swagger UI ile API’yi test etmek için:
+![Swagger UI](https://i.imgur.com/35R568e.png)
+
+
 Örnek Endpointler:
 POST /api/auth/register → Yeni kullanıcı kaydı
 POST /api/auth/login → Giriş yap ve token al
