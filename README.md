@@ -149,7 +149,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 ```
 
 ✅ Başarılı Örnek (Token Oluşturma)
-```
+```json
 {
   "status": 200,
   "payload": {
@@ -161,7 +161,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 ```
 
 ✅ Başarılı Örnek (Pageable Liste)
-```
+```json
 {
   "status": 200,
   "payload": {
@@ -252,7 +252,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 ```
 
 ❌ Hata Örneği
-```
+```json
 {
   "status": 404,
   "exception": {
