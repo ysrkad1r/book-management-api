@@ -46,6 +46,7 @@ Proje, **admin-user rol hiyerarşisi**, **pagination**, **custom exception handl
 ---
 
 ## 📂 Proje Yapısı
+```
 src
 ├─ main
 │ ├─ java/com/kadiryasar
@@ -63,7 +64,7 @@ src
 │ ├─ application.properties
 │ 
 └─ test # Unit testler
-
+```
 
 ## ⚙️ Kurulum ve Çalıştırma
 
