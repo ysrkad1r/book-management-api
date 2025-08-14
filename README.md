@@ -96,7 +96,7 @@ mvn spring-boot:run
 ```
 
 📜 API Dökümantasyonu
-
+```
 Projeyi çalıştırdıktan sonra Swagger UI’a buradan erişebilirsin:
 🔗 http://localhost:8080/swagger-ui/index.html
 
@@ -106,15 +106,18 @@ POST /api/auth/login → Giriş yap ve token al
 GET /api/books?page=0&size=5 → Sayfalı kitap listesi
 POST /api/books → Kitap ekle (Yetki: USER veya ADMIN)
 DELETE /api/books/{id} → Kitap sil (Yetki: ADMIN)
-
+```
 
 🔐 Role Hierarchy
+```
 Rol	    Yetkiler
 ------------------------------------------------------
 ADMIN	|  Tüm USER yetkilerine ek olarak CRUD işlemleri
 USER	|  Yorum ekleme, kitap listeleme
+```
 
 🔑 Authentication Yapısı
+```
 Access Token
 Kısa ömürlü (2 saat)
 Her API isteğinde Authorization: Bearer <token> başlığı ile gönderilir.
@@ -124,10 +127,12 @@ Daha uzun ömürlü (4 saat)
 Veritabanındaki refresh_token tablosunda saklanır.
 
 Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
+```
 
 Author 
 ------------------------
+```
 Name = Abdulkadir Yaşar
 Gmail = kadirysr652@gmail.com
 Github = ysrkad1r
-
+```
