@@ -135,6 +135,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 ```
 ### ✅ Başarılı Örnek (Tek Kayıt)
 ```json
+### Register example
 {
   "status": 200,
   "payload": {
@@ -150,6 +151,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 
 ✅ Başarılı Örnek (Token Oluşturma)
 ```json
+### Authentication response example
 {
   "status": 200,
   "payload": {
@@ -163,6 +165,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 ✅ Başarılı Örnek (Pageable Liste)
 ```json
 {
+### List/books example
   "status": 200,
   "payload": {
     "content": [
@@ -253,6 +256,7 @@ Access Token süresi dolduğunda /refreshToken ile yeni Access Token üretilir.
 
 ❌ Hata Örneği
 ```json
+### save-book error response format example
 {
   "status": 404,
   "exception": {
