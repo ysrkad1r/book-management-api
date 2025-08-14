@@ -100,11 +100,6 @@ mvn spring-boot:run
 Projeyi çalıştırdıktan sonra Swagger UI’a buradan erişebilirsin:
 🔗 http://localhost:8080/swagger-ui/index.html
 
-## 📌 Swagger UI
-Swagger UI ile API’yi test etmek için:
-![Swagger UI](https://i.imgur.com/35R568e.png)
-
-
 Örnek Endpointler:
 POST /api/auth/register → Yeni kullanıcı kaydı
 POST /api/auth/login → Giriş yap ve token al
@@ -112,6 +107,11 @@ GET /api/books?page=0&size=5 → Sayfalı kitap listesi
 POST /api/books → Kitap ekle (Yetki: USER veya ADMIN)
 DELETE /api/books/{id} → Kitap sil (Yetki: ADMIN)
 ```
+
+## 📌 Swagger UI
+Swagger UI ile API’yi test etmek için:
+
+![Swagger UI](https://i.imgur.com/35R568e.png)
 
 🔐 Role Hierarchy
 ```
