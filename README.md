@@ -93,6 +93,7 @@ mvn clean install
 
 5️⃣ Projeyi çalıştır
 mvn spring-boot:run
+```
 
 📜 API Dökümantasyonu
 
@@ -112,8 +113,6 @@ Rol	    Yetkiler
 ------------------------------------------------------
 ADMIN	|  Tüm USER yetkilerine ek olarak CRUD işlemleri
 USER	|  Yorum ekleme, kitap listeleme
-
-<img width="1873" height="897" alt="readme" src="https://github.com/user-attachments/assets/bc782611-e974-4dc8-8c6d-3ca0f431e5af" />
 
 🔑 Authentication Yapısı
 Access Token
