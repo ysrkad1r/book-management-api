@@ -1,5 +1,6 @@
 # book-management-api
 # 📚 Book Comment System
+# This is my first serious backend project
 
 Spring Boot ile geliştirilmiş, kullanıcıların kitap ekleyip yorum yapabileceği, JWT tabanlı kimlik doğrulama ve rol yönetimi içeren **RESTful API** projesi.  
 Proje, **admin-user rol hiyerarşisi**, **pagination**, **custom exception handling** , **Swagger UI** , **Authentication ve **refresh_token destegi ile zenginleştirilmiştir.
